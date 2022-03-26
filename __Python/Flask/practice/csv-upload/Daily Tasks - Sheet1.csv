@@ -1,0 +1,50 @@
+Date,Task to complete,Task Completed
+15/3/2021,Review TTN Garage WebApp,Reviewed TTN Garage WebApp
+16/3/2021,Review TTN Garage WebApp,Reviewed TTN Garage WebApp
+17/3/2021,"Review TTN Retail Shop Review, Install Angular and Run Angular demo project","Reviewed TTN Retail Shop Review, Installed Angular and Ran Angular demo project"
+18/3/2021,Learn about Components and Events,Learnt about Components and Events
+19/3/2021,"Learn about Services, Models and RxJs",Learnt about Services and RxJs
+20/3/2021,Learn about Models and RxJs,Learnt about RxJs and models
+21/3/2021,- - - - - SUNDAY - - - - -,-
+22/3/2021,Create a complete login form.,Created Login Form
+23/3/2021,Create Registration Form,Created Registration Form
+24/3/2021,"Create a dashboard showing details of user name, password and all registered details after successful login",Created Dashboard and added code to check for successful login
+25/3/2021,Study about routing and subscription,Studied about routing and subscription
+26/3/2021,Learn to use Postman,Learned to use Postman
+27/3/2021,Design given web page using HTML and CSS,Designed Feedback Page using HTML and CSS
+28/3/2021,- - - - - SUNDAY - - - - -,
+29/3/2021,- - - - - Holi - - - - - -,
+30/3/2021,(1) Learn to use Web API; (2) Design feedback page using Bootstrap,Learned to use Web API
+31/3/2021,Design given feedback page using Bootstrap,Designed Feedback Page using Bootstrap
+1/4/2021,Learning API Integration and form Validators,"Learned form Validators and integrated 3 APIs (i.e. login, verify otp, resend Otp)"
+2/4/2021,(1) Integrate Register API; (2) Create Session Cookies,Learning about session cookies
+3/4/2021,Recreate registration page so as to integrate Registration API and add field validators,"Recreated registration page, added validators, integrating Registration API"
+4/4/2021,- - - - - - SUNDAY - - - - - - -,
+5/4/2021,Design Supplier's page and Supplier's form,Designed supplier's page and supplier's form
+6/4/2021,Make the Supplier page and supplier form Responsive,"Made the Supplier page and supplier form Responsive, shared to Navneet sir for review"
+7/4/2021,Learn about @ media query and Responsive Websites,Learned about @ media query and Responsive Websites
+8/4/2021,Learn to create REST API using flask,Created REST API using flask
+9/4/2021,Create CRUD operation Create API and call in front-end,Created a flask API for CRUD operation
+10/4/2021,Continued: Create CRUD operation Create API and call in front-end,Created an small demo api for crud operation following YouTube Tutorial
+11/4/2021,- - - - - - SUNDAY - - - - - - -,
+12/4/2021,Install PostgreSQL,Installed PostgreSQL
+13/4/2021,Learn PostgreSQL,Resolved an issue while running PostgreSQL(previous PostgreSQL was not compatable with pgAdmin)
+14/4/2021,Learn about PostgreSQL and Migration,"Learned fundamentals of PostgreSQL like importing .csv file, creating table and database"
+15/4/2021,Learn Migration,Learned Migration
+16/4/2021,To create a Flask RESTful API to perform CRUD and migrate the data to PostgreSQL.,Created a Flask RESTful API to perform CRUD and migrate the data to PostgreSQL.
+17/4/2021,Learn how to use JWT library in python,Learned how to use JWT library in python
+18/4/2021,- - - - - - SUNDAY - - - - - - -,
+19/4/2021,Add JWT in the Flask API created earlier,Added JWT Library in Flask API created earlier
+20/4/2021,Continued: Add JWT in the Flask API created earlier,Solved few errors while adding JWT in API
+21/4/2021,Learn to upload and access image and video in database through API,Learned to upload and access image and video in database through API
+22/4/2021,Validation on page only jpg png jppeg and size must be less then 3 mb,Learning about File size and type Validation
+23/4/2021,Continued: Validation on page only jpg png jppeg and size must be less then 3 mb,"Added component in project, added validators for size and type of file"
+24/4/2021,Create a script which will import data from CSV to database,Adding script to import csv file to PostgreSQL; Reading Documentation
+25/4/2021,- - - - - - SUNDAY - - - - - - -,
+26/4/2021,Continued: Create a script which will import data from CSV to database,Imported data from CSV file using Flask API
+27/4/2021,Learn SQLAlchemy ORM,
+28/4/2021,,
+29/4/2021,- - - - - LEAVE - - - - -,
+30/4/2021,- - - - - LEAVE - - - - -,
+1/5/2021,- - - - - LEAVE - - - - -,
+2/5/2021,- - - - - - SUNDAY - - - - - - -,

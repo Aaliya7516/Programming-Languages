@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int i,j,r,c;
+    printf("Enter number of rows : ");
+    scanf("%d",&r);
+    for(i=1;i<=r;i++)
+    {
+        c=97;
+        for(j=1;j<=i;j++)
+        {
+            printf("%c",c++);
+        }
+        printf("\n");
+    }
+    return 0;
+}

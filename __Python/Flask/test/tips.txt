@@ -1,0 +1,9 @@
+1.  Unable to import 'flask_sqlalchemy' pylint(import-error)
+  -> ctrl + shift + P  -->  Python: select interpreter
+2.  The whole error highlight: not getting variables (editor issue - no need to worry)
+
+3. to save app.py in FLASK_APP variable 
+  - windows: set FLASK_APP=app.py
+  - linux: export FLASK_APP=app.py
+
+3.b) run aap --> flask run

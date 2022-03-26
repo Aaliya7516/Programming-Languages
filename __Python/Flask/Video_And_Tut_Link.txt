@@ -1,0 +1,22 @@
+Basic API: 
+1) E:\_Study material\__ProGraMinG_lAngUage\__Python\Flask\test\main.py
+
+----------------------------------------------------------------
+
+JWT:
+1) Official Docs- https://pyjwt.readthedocs.io/en/latest/
+
+2) Complete JWT authorization in Flask - https://codeburst.io/jwt-authorization-in-flask-c63c1acf4eeb
+
+3) Authenticating a Flask API Using JSON Web Tokens[Youtube] - https://www.youtube.com/watch?v=J5bIPtEbS0Q
+
+----------------------------------------------------------------
+
+Postgre Migration:
+1) https://stackabuse.com/using-sqlalchemy-with-flask-and-postgresql/
+
+
+----------------------------------------------------------------
+
+
+

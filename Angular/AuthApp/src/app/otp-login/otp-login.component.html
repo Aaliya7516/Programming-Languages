@@ -1,0 +1,40 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<form class ="card font" [formGroup]="createOtp" >
+    <h1 >Login Using OTP</h1>
+    <br>
+    <div *ngIf="sendOtp === 0">
+        Mobile Number: &nbsp;&nbsp;
+        <input class="box font" maxlength="10" name="mobile" type="tel" placeholder="mobile number" formControlName = "mobile" />
+        <br>
+        <!--<div *ngIf="createOtp.controls['mobile'].errors.required"><br>Mobile number needed</div>-->
+        <div *ngIf="createOtp.controls['mobile'].errors"><br>Invalid mobile number</div>
+        <br><br>
+        <button class="btn font" type="submit" (click)="getOtp()">Get OTP</button>
+    </div>
+    <div *ngIf="sendOtp === 1">
+        Enter OTP: &nbsp;&nbsp;
+        <input class="box font" maxlength="4" name="otp" type="otp" placeholder="OTP" formControlName = "otp" />
+        <br>
+        <div *ngIf="createOtp.controls['otp'].errors"><br>Invalid OTP</div>
+        <br><br>
+        <div>
+            <button class="btn font" type="submit" (click)="verifyOtp()">Verify OTP</button>
+            <button class="btn font" type="submit" (click)="resendOtp()">Resend OTP</button>
+        </div>
+    </div>
+    <br>
+
+<!--========== TEST TEST TEST =============-->
+
+<!--<p>{{objLogin}}</p>-->
+
+<!--========== TEST TEST TEST =============-->
+
+
+</form>
+<br><br>
+<div class="font">
+    <button class="btn font" routerLink="/register">Register</button>
+</div>
+<br>

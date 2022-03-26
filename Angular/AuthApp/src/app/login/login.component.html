@@ -1,0 +1,20 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<form class ="card font" [formGroup] ="createLogin">
+<h1 >Login</h1>
+<br>Username:&nbsp;&nbsp;
+<input class="box font" name="user" type="text" placeholder="Username" formControlName = "username"/>
+<br><br>
+Password:&nbsp;&nbsp;
+<input class="box font" name="pass" type="password" placeholder="abc@123" formControlName = "password"/>
+<br><br><br>
+<button class="btn font" type="submit" (click)="login()" >Login</button>
+<br><br>
+</form>
+<br><br>
+<div class="font">
+<button class="font btn" routerLink="/register">Register</button>
+<button class="btn font" routerLink="/login">Login using OTP</button>
+</div>
+<br><br>
+<!-- <div *ngIf="flag===1"><br><br><br><br><app-dashboard></app-dashboard><br></div>-->

@@ -1,0 +1,54 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<form class ="card font" [formGroup] ="createReg">
+    <div *ngIf="loggedin=== false">
+        <h1 class="center">Register</h1>
+        <div>
+            <input class="box font" type="text" placeholder="First name*" formControlName="workshop_first_name">
+            <input class="box font" type="text" placeholder="Last name" formControlName="workshop_last_name">
+        </div>
+        <div>
+            <input class="box font w-95" type="text" placeholder="Workshop name*" formControlName="workshop_name">
+        </div>
+        <div>
+            <input class="box font" type="text" placeholder="Email*" formControlName="workshop_email">
+            <input class="box font" type="text" maxlength="10" placeholder="Phone Number*" formControlName="workshop_mobile_number_1">
+        </div>
+        <div>
+            <input class="box font" type="text" maxlength="10" placeholder="Phone Number 2" formControlName="workshop_mobile_number_2">
+            <input class="box font" type="text" placeholder="Address" formControlName="workshop_address">
+        </div>
+        <div>
+            <input class="box font" type="text" placeholder="State" formControlName="workshop_state">
+            <input class="box font" type="text" placeholder="City" formControlName="workshop_city">
+        </div>
+        <div>
+            <input class="box font" type="text" placeholder="Zipcode" formControlName="workshop_pincode">
+            <input class="box font" type="text" maxlength="4" placeholder="RTO No.*" formControlName="workshop_rtocode">
+        </div>
+        <br>
+        <div>
+            <span  class="checkbox"><input type="checkbox" formControlName="two_wheeler">&nbsp;<b>2W</b></span>
+            <span  class="checkbox"><input type="checkbox" formControlName="three_wheeler">&nbsp;<b>3W</b></span>
+            <span  class="checkbox"><input type="checkbox" formControlName="four_wheeler">&nbsp;<b>4W</b></span>
+            <span  class="checkbox"><input type="checkbox" formControlName="six_wheeler">&nbsp;<b>6W</b></span>
+        </div>
+        <br>
+        <div>
+            <span  class="checkbox">
+                <input type="checkbox" formControlName="terms_conditions">
+                &nbsp;I accept <a class="TAndC" href="https://www.tightthenut.com/terms-and-conditions.html">&nbsp;<b>Terms and conditions</b></a>
+            </span>
+        </div>
+        <br>
+        <button class="btn font" type="submit" (click)="reg()">Send OTP</button>    
+        <br><br>
+    </div>
+    <div *ngIf="loggedin=== true"><br><br>Welcome {{loggerName}}!<br><br></div>
+</form>
+
+<br><br>
+<div class="font">
+<button class="btn font"  *ngIf="loggedin=== false" routerLink="/login">Login using OTP</button>
+</div>
+<br><br>

@@ -1,0 +1,22 @@
+1.1. In a company an employee is paid as under: If his basic salary is less than Rs. 1500, then HRA =10% of basic salary and        DA = 90% of basic salary. If his salary is either equal to or above Rs.1500, then HRA = Rs. 500 and DA = 98% of basic            salary. If the employee's salary is input through the keyboard write a program to find his gross salary.
+
+1.2. Write a C program to input basic salary of an employee and calculate its Gross salary according to following:
+	Basic Salary <= 10000 : HRA = 20%, DA = 80%
+	Basic Salary <= 20000 : HRA = 25%, DA = 90%
+	Basic Salary > 20000 : HRA = 30%, DA = 95%  salary. 
+
+2. Write a C program to input electricity unit charges and calculate total electricity bill according to the given condition:
+	For first 50 units Rs. 0.50/unit
+	For next 100 units Rs. 0.75/unit
+	For next 100 units Rs. 1.20/unit
+	For unit above 250 Rs. 1.50/unit
+   An additional surcharge of 20% is added to the bill.
+
+3. A library charges a fine for every book returned late. For first 5 days the fine is 50 paise, for 6-10 days fine is one rupee         and above 10 days fine is 5 rupees. If you return the book after 30 days your membership will be cancelled. Write a       program to accept the number of days the member is late to return the book and display the fine or the appropriate
+   message. 
+4. Write a C program to find power of any number x ^ y. 
+
+5. Write a C program to find all roots of a quadratic equation. 
+
+6. Write a C program to find the factorial of the given number.
+

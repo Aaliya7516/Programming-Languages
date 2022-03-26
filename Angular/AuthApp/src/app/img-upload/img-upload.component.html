@@ -1,0 +1,19 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<form class ="card font" [formGroup]="imgUpload" enctype="multipart/form-data" method="POST"  action="http://localhost:5000/upload" >
+    <h1 >Image Upload</h1>
+    <br>
+    <div>
+        <input class="box font" name="pic" type="file" accept="image/*" formControlName = "profilePic" />
+        <br>
+        <div *ngIf="imgUpload.controls['profilePic'].errors">
+            <br>Accepted Format:
+            <br><br>Size: Under 3 MB
+            <br><br>Type: jpg/jpeg/png
+        </div>
+        <br><br>
+        <button class="btn font" type="submit" (click)="imgUploadF()">Upload</button>
+    </div>
+    <br>
+</form>
+<br>

@@ -1,0 +1,19 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+<div class = "card font">
+<h1>Dashboard</h1>
+    <table>
+        <tr>
+            <th>Username</th>
+            <th>Email Id</th>
+            <th>Contact No.</th>
+            <th>Password</th>
+        </tr>
+        <tr *ngFor="let eachUser of userData" >
+            <td>{{eachUser.user}}</td>
+            <td>{{eachUser.email}}</td>
+            <td>{{eachUser.contact}}</td>
+            <td>{{eachUser.pass}}</td>
+        </tr>
+    </table>
+</div>
